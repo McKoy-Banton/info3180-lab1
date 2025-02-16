@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
     <meta charset="UTF-8">
     <title>My Website - About</title>
 </head>
@@ -9,5 +10,6 @@
     <p>Hello I am McKoy. I am a final year university student at the UWI pursuing a degree in Computer Science. I like coding and I enjoy learning 
        about many different technologies and how they work. I also enjoy tutoring CSEC students in Information Technology and Math.
     </p>
+    <img src="{{ url_for('static', filename='image.webp') }}" alt="My Image" />
 </body>
 </html>
